@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CampusLink 2.0</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="workspace-frame">
+      <div class="app-shell">
+
+        <!-- ── SIDEBAR ── -->
+        <aside class="sidebar" id="sidebar">
+          <div class="brand-lockup">
+            <div class="logo-mark">CL</div>
+            <div>
+              <div class="brand-name">CampusLink</div>
+              <div class="brand-sub">Platform 2.0</div>
+            </div>
+          </div>
+
+          <nav class="nav-stack">
+            <div class="nav-section-label">Overview</div>
+
+            <button class="nav-item is-active" data-view="dashboard">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg>
+              Dashboard
+            </button>
+
+            <button class="nav-item" data-view="calendar">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              Events
+            </button>
+
+            <button class="nav-item" data-view="offers">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+              Offers
+            </button>
+
+            <button class="nav-item" data-view="profiles">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              Profiles
+            </button>
+
+            <button class="nav-item" data-view="messages">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              Messages
+              <span class="nav-badge">3</span>
+            </button>
+          </nav>
+
+          <div class="sidebar-foot">
+            <button class="nav-item">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+              Settings
+            </button>
+
+            <div class="sidebar-user">
+              <div class="avatar">TR</div>
+              <div>
+                <div class="sidebar-user-name">Tyler Rong</div>
+                <div class="sidebar-user-role">Brand Manager</div>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <!-- ── MAIN ── -->
+        <main class="main-wrap">
+
+          <header class="topbar">
+            <button id="sidebarToggle" class="icon-btn" aria-label="Open navigation">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            </button>
+            <div class="search-wrap">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <input type="text" placeholder="Search events, organizations, offers..." />
+            </div>
+            <div class="topbar-actions">
+              <button class="icon-btn" title="Notifications">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+              </button>
+              <button class="chip-btn strong">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                Create Offer
+              </button>
+              <button class="avatar-btn">TR</button>
+            </div>
+          </header>
+
+          <!-- ── DASHBOARD ── -->
+          <section class="view is-active" id="view-dashboard">
+            <div class="page-head row">
+              <div>
+                <h1>Dashboard</h1>
+                <p>Welcome back, Tyler. Here's what's happening today.</p>
+              </div>
+              <div class="topbar-date">Mar 25, 2026</div>
+            </div>
+
+            <div class="metrics-grid">
+              <article class="metric-card">
+                <div class="metric-header">
+                  <span class="metric-label">Open Conversations</span>
+                  <div class="metric-icon metric-icon--blue">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                  </div>
+                </div>
+                <strong>42</strong>
+                <div class="metric-footer">
+                  <span class="trend up">↑ 8%</span>
+                  <span class="metric-compare">vs. last week</span>
+                </div>
+              </article>
+
+              <article class="metric-card">
+                <div class="metric-header">
+                  <span class="metric-label">Event Engagement</span>
+                  <div class="metric-icon metric-icon--violet">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  </div>
+                </div>
+                <strong>1,284</strong>
+                <div class="metric-footer">
+                  <span class="trend up">↑ 12%</span>
+                  <span class="metric-compare">7 active campaigns</span>
+                </div>
+              </article>
+
+              <article class="metric-card">
+                <div class="metric-header">
+                  <span class="metric-label">Offer Response Rate</span>
+                  <div class="metric-icon metric-icon--green">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+                  </div>
+                </div>
+                <strong>32.4%</strong>
+                <div class="metric-footer">
+                  <span class="trend up">↑ 4.3 pts</span>
+                  <span class="metric-compare">vs. last month</span>
+                </div>
+              </article>
+
+              <article class="metric-card">
+                <div class="metric-header">
+                  <span class="metric-label">Contracts in Progress</span>
+                  <div class="metric-icon metric-icon--amber">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                  </div>
+                </div>
+                <strong>14</strong>
+                <div class="metric-footer">
+                  <span class="trend neutral">3 pending</span>
+                  <span class="metric-compare">awaiting signatures</span>
+                </div>
+              </article>
+            </div>
+
+            <div class="split-grid">
+              <article class="surface-card">
+                <div class="card-head">
+                  <h2>Upcoming Events</h2>
+                  <button class="text-btn" data-open-view="calendar">View all →</button>
+                </div>
+                <ul class="event-list">
+                  <li>
+                    <div class="event-dot event-dot--blue"></div>
+                    <div class="event-info">
+                      <strong>Purdue University Campus Outreach</strong>
+                      <p>Tue, Mar 31 · 1:00 PM · West Lafayette, IN</p>
+                    </div>
+                    <span class="pill">300 expected</span>
+                  </li>
+                  <li>
+                    <div class="event-dot event-dot--violet"></div>
+                    <div class="event-info">
+                      <strong>Cabo Spring Break Beer Dye Tournament</strong>
+                      <p>Wed, Mar 18 · 12:00 PM · Cabo, MX</p>
+                    </div>
+                    <span class="pill">1,000 expected</span>
+                  </li>
+                  <li>
+                    <div class="event-dot event-dot--green"></div>
+                    <div class="event-info">
+                      <strong>Kickbacks Ambassador Mixer</strong>
+                      <p>Fri, Apr 3 · 7:30 PM · USC, Los Angeles</p>
+                    </div>
+                    <span class="pill">120 expected</span>
+                  </li>
+                </ul>
+              </article>
+
+              <article class="surface-card">
+                <div class="card-head">
+                  <h2>Profile Completion</h2>
+                  <button class="text-btn">Edit →</button>
+                </div>
+                <div class="progress-wrap">
+                  <div class="progress-header">
+                    <span class="progress-pct">78%</span>
+                    <span class="progress-label">2 items remaining</span>
+                  </div>
+                  <div class="progress-bar"><span style="width: 78%"></span></div>
+                  <p>Add a media kit and sponsorship outcomes to build trust with campus orgs.</p>
+                </div>
+                <ul class="checklist">
+                  <li class="done">Brand assets uploaded</li>
+                  <li class="done">Target schools selected</li>
+                  <li>Audience insights attached</li>
+                  <li>Pricing tiers finalized</li>
+                </ul>
+              </article>
+            </div>
+          </section>
+
+          <!-- ── CALENDAR ── -->
+          <section class="view" id="view-calendar">
+            <div class="page-head row">
+              <div>
+                <h1>Events Calendar</h1>
+                <p>Browse and schedule campus opportunities.</p>
+              </div>
+              <div class="segmented" id="calendarMode">
+                <button class="is-active">Month</button>
+                <button>Week</button>
+                <button>Day</button>
+              </div>
+            </div>
+
+            <article class="surface-card calendar-toolbar">
+              <div class="chip-row">
+                <button class="chip-btn">All Schools</button>
+                <button class="chip-btn">Spring Break</button>
+                <button class="chip-btn">Paid Events</button>
+                <button class="chip-btn">+ Add Filter</button>
+              </div>
+            </article>
+
+            <article class="surface-card">
+              <div class="card-head">
+                <h2>March 2026</h2>
+                <div style="display:flex;gap:6px;">
+                  <button class="icon-btn">← Prev</button>
+                  <button class="icon-btn">Next →</button>
+                </div>
+              </div>
+              <div class="calendar-grid">
+                <div class="day-label">Sun</div>
+                <div class="day-label">Mon</div>
+                <div class="day-label">Tue</div>
+                <div class="day-label">Wed</div>
+                <div class="day-label">Thu</div>
+                <div class="day-label">Fri</div>
+                <div class="day-label">Sat</div>
+                <button class="day-cell" data-open-modal><span>18</span><small>Beer Dye Tournament</small></button>
+                <button class="day-cell"><span>19</span><small>Brand Story Workshop</small></button>
+                <button class="day-cell"><span>20</span><small>Campus Kickoff</small></button>
+                <button class="day-cell"><span>21</span><small>Offer Deadline</small></button>
+                <button class="day-cell"><span>22</span><small>Photo Campaign</small></button>
+                <button class="day-cell"><span>23</span><small>Recruiting Table</small></button>
+                <button class="day-cell"><span>24</span><small>Sponsor Sync</small></button>
+              </div>
+            </article>
+          </section>
+
+          <!-- ── OFFERS ── -->
+          <section class="view" id="view-offers">
+            <div class="page-head row">
+              <div>
+                <h1>Offers</h1>
+                <p>Active sponsorship opportunities for campus organizations.</p>
+              </div>
+              <button class="chip-btn strong">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                Create Offer
+              </button>
+            </div>
+
+            <div class="offers-grid">
+              <article class="offer-card">
+                <div class="offer-head">
+                  <span class="pill neutral">Technology</span>
+                  <span class="pill">All Schools</span>
+                </div>
+                <h3>SciSpace Campus Ambassador Program</h3>
+                <p>Lead research-centered activations and represent SciSpace at your university.</p>
+                <footer>
+                  <span>Mar 24 – Jun 30, 2026</span>
+                  <button class="text-btn" data-open-modal>View Details →</button>
+                </footer>
+              </article>
+              <article class="offer-card">
+                <div class="offer-head">
+                  <span class="pill neutral">Food & Bev</span>
+                  <span class="pill">Paid</span>
+                </div>
+                <h3>Kickbacks Shot + Chaser Ambassador</h3>
+                <p>Promote campaign launches with social storytelling and campus events.</p>
+                <footer>
+                  <span>Jan 28 – Jun 28, 2026</span>
+                  <button class="text-btn">View Details →</button>
+                </footer>
+              </article>
+              <article class="offer-card">
+                <div class="offer-head">
+                  <span class="pill neutral">Lifestyle</span>
+                  <span class="pill">Regional</span>
+                </div>
+                <h3>Social Event Sponsorship Sprint</h3>
+                <p>Support top organizations with product placement and co-branded media.</p>
+                <footer>
+                  <span>Apr 1 – Jul 12, 2026</span>
+                  <button class="text-btn">View Details →</button>
+                </footer>
+              </article>
+            </div>
+          </section>
+
+          <!-- ── PROFILES ── -->
+          <section class="view" id="view-profiles">
+            <div class="page-head">
+              <h1>Profiles</h1>
+              <p>Discover students, campus organizations, and brands on CampusLink.</p>
+            </div>
+            <article class="surface-card">
+              <div class="filters-row">
+                <input type="text" placeholder="Search by name, school, major, organization..." />
+                <div class="segmented compact">
+                  <button>Students</button>
+                  <button class="is-active">Campus Orgs</button>
+                  <button>Brands</button>
+                </div>
+              </div>
+              <div class="profile-grid">
+                <article class="profile-card">
+                  <div class="avatar">DT</div>
+                  <div>
+                    <h3>Delta Tau Delta</h3>
+                    <p>Texas State University</p>
+                  </div>
+                  <span class="status online">Active today</span>
+                </article>
+                <article class="profile-card">
+                  <div class="avatar">AT</div>
+                  <div>
+                    <h3>Alpha Tau Omega</h3>
+                    <p>University of Virginia</p>
+                  </div>
+                  <span class="status warm">Active recently</span>
+                </article>
+                <article class="profile-card">
+                  <div class="avatar">DM</div>
+                  <div>
+                    <h3>Delight Ministries</h3>
+                    <p>Eastern Kentucky University</p>
+                  </div>
+                  <span class="status idle">Active this week</span>
+                </article>
+              </div>
+            </article>
+          </section>
+
+          <!-- ── MESSAGES ── -->
+          <section class="view" id="view-messages">
+            <div class="page-head">
+              <h1>Messages</h1>
+              <p>Manage partnerships and deals through direct conversation.</p>
+            </div>
+            <div class="messages-layout">
+              <aside class="conversation-list surface-card">
+                <input type="text" placeholder="Search chats..." />
+                <button class="conversation active">XTCY ↔ Lambda Chi Alpha</button>
+                <button class="conversation">CampusLink ↔ Pi Delta Psi</button>
+                <button class="conversation">Kickbacks ↔ Spike Michel</button>
+                <button class="conversation">SciSpace ↔ Purdue Outreach</button>
+              </aside>
+
+              <section class="chat-area surface-card">
+                <div class="chat-header">
+                  <h2>XTCY ↔ Lambda Chi Alpha</h2>
+                  <span class="pill neutral">Campus Org</span>
+                </div>
+                <div class="chat-stream">
+                  <div class="bubble">Wanted to send y'all some xtcy</div>
+                  <div class="bubble incoming">Yeah would love it, our address is 720 W 28th St, Los Angeles, CA 90007.</div>
+                  <div class="bubble">Perfect, we'll coordinate shipment and timeline details.</div>
+                </div>
+                <div class="action-ribbon">
+                  <button class="ribbon-btn danger">Generate Contract</button>
+                  <button class="ribbon-btn">View Contracts</button>
+                  <button class="ribbon-btn success">Send Money</button>
+                  <button class="ribbon-btn info">View Transactions</button>
+                </div>
+                <div class="chat-compose">
+                  <input type="text" placeholder="Type a message..." />
+                  <button class="chip-btn">Image</button>
+                  <button class="chip-btn strong">Send</button>
+                </div>
+              </section>
+            </div>
+          </section>
+
+        </main>
+      </div>
+    </div>
+
+    <!-- ── MODAL ── -->
+    <dialog id="eventModal" class="event-modal">
+      <div class="modal-head">
+        <h2>Cabo Spring Break – Beer Dye Tournament</h2>
+        <button id="closeModal" class="icon-btn">✕</button>
+      </div>
+      <p class="muted">Hosted by Dyeislife · Wednesday, March 18, 2026 · Cabo, Mexico</p>
+      <p style="font-size:14px;color:#334155;line-height:1.6;margin-top:10px;">Dye is Life hosts high-energy spring break activations across major campus destinations. Built for brands that want real reach with real students.</p>
+      <div class="modal-grid">
+        <article>
+          <h4>Expected Attendance</h4>
+          <strong>1,000</strong>
+        </article>
+        <article>
+          <h4>Category</h4>
+          <strong>National Organization</strong>
+        </article>
+      </div>
+      <div class="modal-actions">
+        <button class="chip-btn">View Event Details</button>
+        <button class="chip-btn strong">Message Host</button>
+      </div>
+    </dialog>
+
+    <script src="app.js"></script>
+  </body>
+</html>
