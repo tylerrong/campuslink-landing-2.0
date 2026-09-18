@@ -13,43 +13,43 @@
     brands: {
       campaigns: {
         title: "What you can actually <em>run on campus.</em>",
-        body: "Six formats that cover almost every brief we see. Run one on a single campus, or stack them across a conference.",
+        body: "These are the formats brands run most, and room for whatever else your brief needs. Start on one campus, or stack them across a conference.",
         items: [
           {
-            viz: "events",
+            viz: "gifts",
             title: "Greek life event sponsorships",
             body: "Put your brand inside the tailgate, formal, or philanthropy week a chapter is already running. You buy the moment, not the media.",
-            spec: ["From $1,500", "Chapters", "On-site + content"],
+            spec: ["Chapters", "On-site + content"],
           },
           {
             viz: "sampling",
             title: "Product sampling",
             body: "Get product into hands at the events students already show up to. The chapter handles distribution and sends back the count.",
-            spec: ["From $2,000", "Orgs &amp; events", "500–5,000 units"],
+            spec: ["Orgs &amp; events", "500-5,000 units"],
           },
           {
             viz: "ambassadors",
             title: "Ambassador programs",
             body: "Recruit a cohort that represents you all semester, with deliverables, check-ins, and reporting built into the contract.",
-            spec: ["From $400/mo", "Students", "Semester cohort"],
+            spec: ["Students", "Semester cohort"],
           },
           {
             viz: "creators",
             title: "Student influencers",
             body: "Campus-native creators posting to their own audience. Content rights are included in the deal, with no agency markup on top.",
-            spec: ["From $150", "Creators", "UGC + paid rights"],
+            spec: ["Creators", "UGC + paid rights"],
           },
           {
             viz: "retail",
             title: "Retail programs",
             body: "Drive students to the stores near campus that already stock you, using trackable offers and in-store meetups.",
-            spec: ["From $1,200", "Orgs + creators", "Foot traffic"],
+            spec: ["Orgs + creators", "Foot traffic"],
           },
           {
-            viz: "takeover",
-            title: "Campus takeovers",
-            body: "Own a moment: game day, bid day, move-in week. Multiple orgs on one campus, coordinated into a single push.",
-            spec: ["From $10,000", "Multi-org", "Full campus"],
+            viz: "open",
+            title: "Whatever your brand needs",
+            body: "A house pop-up, a sponsored rush video, a week-long takeover. If college students are the audience, we can structure the deal.",
+            spec: ["Open brief", "Built to fit"],
           },
         ],
       },
@@ -61,43 +61,43 @@
             title: "Verified network",
             body: "Every org confirms .edu identity, roster size, and leadership. Reputation is earned on-platform, deal by deal.",
             chip: ".edu verified",
-            image: "assets/platform/01-network.jpg",
-            alt: "Students walking across a college campus",
+            image: "assets/platform/collage/brands-network.webp",
+            alt: "Student leaders with campus IDs, a verification seal, and connected campus photographs.",
           },
           {
             title: "One-click contracts",
             body: "Auto-generated agreements with deliverables, content rights, and timelines baked in. Signed in-platform.",
             chip: "Signed in-platform",
-            image: "assets/platform/02-contracts.jpg",
-            alt: "Hands drafting an agreement on paper",
+            image: "assets/platform/collage/brands-contracts.webp",
+            alt: "Student organizers reviewing an agreement together with a pen.",
           },
           {
             title: "Escrowed payments",
             body: "Funds are held until delivery is verified. Orgs know they’ll be paid; you know you’ll get proof.",
             chip: "Held until proof",
-            image: "assets/platform/03-escrow.jpg",
-            alt: "Hands holding a card over a laptop to complete a payment",
+            image: "assets/platform/collage/brands-escrow.webp",
+            alt: "A payment envelope secured by a red lock, linked to verified event delivery.",
           },
           {
             title: "Direct messaging",
             body: "Negotiate with actual decision-makers like the social chair or the club president, not an agency middle layer.",
             chip: "Social chair, not intern",
-            image: "assets/platform/04-messaging.jpg",
-            alt: "College students standing together looking at their phones",
+            image: "assets/platform/collage/brands-messaging.webp",
+            alt: "Two student leaders using phones, joined by red speech bubbles and a connecting line.",
           },
           {
             title: "Campaign analytics",
             body: "Attendance, samples distributed, content delivered, impressions: proof of execution in one recap.",
             chip: "Attendance · posts · samples",
-            image: "assets/platform/05-analytics.jpg",
-            alt: "Young adults gathered at a live campus-style event",
+            image: "assets/platform/collage/brands-analytics.webp",
+            alt: "Organizers reviewing results beside an event photo and ascending red chart bars.",
           },
           {
             title: "Proven playbooks",
             body: "Launch from templates built on hundreds of real campus campaigns: tailgates, ambassador cohorts, sampling drops.",
             chip: "12 campus templates",
-            image: "assets/platform/06-playbooks.jpg",
-            alt: "Crowd at a nighttime campus-scale event",
+            image: "assets/platform/collage/brands-playbooks.webp",
+            alt: "Student organizers arranging planning cards beside a campus activation photo.",
           },
         ],
         deck: true,
@@ -114,11 +114,14 @@
         ],
       },
       faq: [
-        ["Is oncampus an agency?", "No. It’s a self-serve marketplace, so you work directly with student orgs at marketplace prices. For white-glove, fully managed programs, our partners at FLAIR handle that."],
-        ["How are orgs and students verified?", "Every org confirms .edu identity, roster size, and leadership. Brands leave reviews after each completed deal, so reputation is earned on-platform over time."],
-        ["What does it cost?", "Free for student orgs, always. Brands pay a platform fee on completed deals, with no retainers and no minimums."],
-        ["What if a campaign doesn’t happen?", "Payments sit in escrow until deliverables are verified. If the work doesn’t happen, the funds come back."],
-        ["Which brands is this built for?", "CPG, RTD beverages, food, apparel, consumer apps, wellness, and fintech. Any brand where winning 18–24 year-olds early compounds for a decade."],
+        ["What is oncampus?", "oncampus is a platform that helps brands ACCESS the college market."],
+        ["Why should my brand use oncampus?", "We’re the fastest way to authentically reach Gen Z on campus. oncampus is the only platform that connects you with student orgs and events where your brand can show up in real life."],
+        ["What features does oncampus offer?", "oncampus provides a comprehensive suite of tools including an interactive event calendar to discover verified campus events, direct messaging for seamless communication with students and organizations, automated contract generation for streamlined partnerships, targeted offer posting, advanced search filters to find the right student ambassadors and organizations, and curated playbooks featuring proven campus marketing strategies from successful campaigns."],
+        ["What types of brands are a good fit?", "CPG, RTD beverages, food, apparel, tech apps, wellness, financial services, and more. If college students are your target audience, you’ll find traction here."],
+        ["What types of sponsorships can I do?", "Whether you want to sponsor an event, do a pop-up at a house, or do a sponsored rush video, oncampus can help you run any sponsorship or campaign you would like."],
+        ["What does oncampus provide that a traditional student rep program doesn’t?", "Access to hundreds of Greek Life chapters, clubs, and other student groups across the U.S. Access to thousands of students across the U.S. Streamlined sponsorship logistics (contracts, payments, activations)."],
+        ["Is oncampus an agency?", "No. oncampus is not an agency; we are a platform that helps you access the college market. If you are interested in a more hands-on campaign, please visit <a href=\"https://theflaircollective.com\" target=\"_blank\" rel=\"noopener noreferrer\">theflaircollective.com</a>."],
+        ["Is there a free trial?", "We do not offer free trials. If you want to check out the platform before subscribing, <a href=\"#cta\">book a demo</a>."],
       ],
       video: "assets/hero-brands.mp4",
       poster: "assets/hero-brands.jpg",
@@ -131,47 +134,95 @@
       heroSecondary: ["See how it works", "#how"],
       heroFine: "Built for teams in CPG · RTD · consumer apps · apparel · wellness · fintech",
       howEyebrow: "How it works",
-      howTitle: "From brief to on-campus <em>in three steps.</em>",
+      howTitle: "From search to <em>live on campus</em> in five steps.",
       steps: [
         {
-          title: "Post your brief",
-          body: "Describe the activation (sampling, tailgate, UGC, ambassador program), set the budget, and pick your campuses. About five minutes.",
+          title: "Find opportunities",
+          body: "Discover verified events, organizations, and student influencers that align with your brand goals. Filter by campus, chapter size, and audience.",
           panel: {
-            title: "New brief",
-            rows: [
-              ["Campaign", "Fall sampling tour"],
-              ["Budget", "$2,500 per campus"],
-              ["Campuses", "Ole Miss, LSU, Auburn +4"],
-            ],
-            cta: "Publish brief →",
+            title: "Event calendar",
+            count: "Verified",
+            event: {
+              image: "assets/platform/01-network.jpg",
+              alt: "Students packed into a campus tailgate",
+              name: "Grove Tailgate",
+              logo: "ole-miss",
+              when: "Oct 12",
+              where: "Ole Miss",
+              tags: ["Sampling", "Banners", "UGC"],
+              going: "680 going",
+            },
+            cta: "Save to shortlist →",
           },
         },
         {
-          title: "Match with verified orgs",
-          body: "Qualified fraternities, sororities, clubs, and creators apply to you. Compare reach, reviews, and past performance, then message directly.",
+          title: "Contact students directly",
+          body: "Connect with key students and organizations through built-in messaging. No agency in the middle, no cold outreach, no chasing anyone down.",
           panel: {
-            title: "Applicants",
-            count: "12",
-            cards: [
-              { logo: "ole-miss", name: "Sigma Chi", meta: "Ole Miss · .edu", metric: "312 members" },
-              { logo: "lsu", name: "Kappa Delta", meta: "LSU · .edu", metric: "280 members" },
-              { logo: "auburn", name: "Club Rugby", meta: "Auburn · .edu", metric: "95 members" },
+            title: "Sigma Chi",
+            kicker: "Ole Miss · 312 members",
+            thread: [
+              { from: "you", text: "We’re running a fall sampling tour and Ole Miss is the first stop." },
+              { from: "them", text: "We host the Grove Tailgate every home game. Around 700 people come through." },
+              { from: "you", text: "We’d sample the new RTD line and cover your banner printing. Budget is $2,500." },
+              { from: "them", text: "That works. Send the offer and we’ll take it to exec board tonight." },
             ],
-            cta: "Review shortlist →",
+            cta: "Send offer →",
           },
         },
         {
-          title: "Launch with guardrails",
-          body: "One click generates the contract. Funds sit in escrow and release when deliverables are verified. Recaps land in your dashboard.",
+          title: "Generate contract",
+          body: "Contracts and payment escrow are generated automatically, so partnerships are secure without a legal review for every chapter.",
+          panel: {
+            title: "Contract",
+            count: "Auto-drafted",
+            contract: {
+              parties: ["Your brand", "Sigma Chi · Ole Miss"],
+              event: "Grove Tailgate",
+              terms: [
+                ["Deliverables", "Sampling + 6 UGC posts"],
+                ["Window", "Oct 12 to Nov 2"],
+                ["Fee", "$2,500"],
+                ["Funds", "Held in escrow until verified"],
+              ],
+              sign: ["Brand signature", "Org signature"],
+            },
+            cta: "Sign and fund →",
+          },
+        },
+        {
+          title: "Launch your campaign",
+          body: "Run campaigns that reach thousands of students across multiple campuses at once, with every activation tracked in one dashboard.",
           panel: {
             title: "Campaign",
             live: true,
             kicker: "Fall sampling tour",
-            rows: [
-              ["Events run", "7 of 7"],
-              ["Content delivered", "38 posts"],
-              ["Escrow", "$17,500 secured"],
+            cards: [
+              { logo: "ole-miss", name: "Grove Tailgate", meta: "Oct 12 · sampling", metric: "680 going" },
+              { logo: "lsu", name: "Philanthropy 5K", meta: "Oct 19 · banners", metric: "420 going" },
+              { logo: "auburn", name: "Rush pop-up", meta: "Oct 24 · UGC", metric: "310 going" },
+              { logo: "alabama", name: "Game-day sampling", meta: "Nov 2 · sampling", metric: "540 going" },
             ],
+            cta: "View live campaigns →",
+          },
+        },
+        {
+          title: "Measure what it drove",
+          body: "Escrow releases as deliverables are verified, and every event, post, and dollar lands in one recap you can send upstairs.",
+          panel: {
+            title: "Recap",
+            kicker: "Fall sampling tour",
+            recap: {
+              label: "Students reached",
+              hero: "12,400",
+              note: "7 campuses · complete",
+              stats: [
+                ["Events run", "7 of 7"],
+                ["Content delivered", "38 posts"],
+                ["Escrow released", "$17,500"],
+                ["Avg. cost / student", "$1.41"],
+              ],
+            },
             cta: "Download recap →",
           },
         },
@@ -195,43 +246,43 @@
             title: "Free to list",
             body: "Your org, your events, and your roster cost nothing to list. Money only ever moves toward you.",
             chip: "Always $0",
-            image: "assets/platform/orgs/01-list.jpg",
-            alt: "Student org members gathered around a laptop",
+            image: "assets/platform/collage/orgs-list.webp",
+            alt: "A student creating an organization profile beside a group photo and red plus sign.",
           },
           {
             title: "Real budgets, not exposure",
             body: "Offers come from verified brands with funds already committed, not from someone asking you to post for free.",
             chip: "Funds committed",
-            image: "assets/platform/orgs/02-budgets.jpg",
-            alt: "Students shaking hands across a table to close a deal",
+            image: "assets/platform/collage/orgs-budgets.webp",
+            alt: "A sponsorship offer folder with payment vouchers, an event photo, and a red approval seal.",
           },
           {
             title: "Paid before you commit",
             body: "The money is locked in escrow before you agree. Run the event, submit proof, get paid.",
             chip: "Escrow first",
-            image: "assets/platform/orgs/03-escrow.jpg",
-            alt: "Hands exchanging payment at a table",
+            image: "assets/platform/collage/orgs-escrow.webp",
+            alt: "An organizer and event plan beside a locked funding envelope and campus event photo.",
           },
           {
             title: "You set the terms",
             body: "Accept, counter, or decline every offer. Nothing happens at your house that your exec board didn’t approve.",
             chip: "Exec board approves",
-            image: "assets/platform/orgs/04-terms.jpg",
-            alt: "A student org meeting around a conference table",
+            image: "assets/platform/collage/orgs-terms.webp",
+            alt: "Student board members reviewing and marking up an event proposal together.",
           },
           {
             title: "Ten minutes a semester",
             body: "Add your events and roster once. Offers keep arriving without more work from you.",
             chip: "Set it once",
-            image: "assets/platform/orgs/05-minutes.jpg",
-            alt: "A student updating a listing on a laptop",
+            image: "assets/platform/collage/orgs-minutes.webp",
+            alt: "A student completing setup beside a stopwatch and checked semester calendar.",
           },
           {
             title: "Reputation that compounds",
             body: "Every completed deal builds your rating, and better offers follow next semester.",
             chip: "Ratings carry over",
-            image: "assets/platform/orgs/06-reputation.jpg",
-            alt: "A student organization standing together as a chapter",
+            image: "assets/platform/collage/orgs-reputation.webp",
+            alt: "A student organization with completed event photos, red checks, and a row of rating stars.",
           },
         ],
         deck: true,
@@ -248,11 +299,16 @@
         ],
       },
       faq: [
-        ["Does it cost our org anything?", "No. Listing your org, your events, and your roster is free forever. Brands pay the platform fee, never you."],
-        ["Who decides what happens at our events?", "You do. Every offer can be accepted, countered, or declined, and nothing runs at your house without your exec board approving it."],
-        ["How do we actually get paid?", "Funds sit in escrow before you commit. Once the event happens and proof is approved, payment releases, usually within 24 hours."],
-        ["How much work is this?", "About ten minutes a semester. Add your events and roster size once, then review offers as they arrive."],
-        ["What if a brand isn’t a fit for our chapter?", "Decline it. There’s no penalty and no obligation, and you keep receiving offers."],
+        ["What is oncampus?", "oncampus is a free platform that connects fraternities, sororities, clubs, and any college-affiliated organizations with brands that want to sponsor their events and initiatives."],
+        ["What features does oncampus offer?", "Orgs can create and manage event listings with detailed sponsorship needs, post custom opportunities and services they offer, browse and apply to brand opportunities that match the chapter, chat with potential brand partners in real time, build a profile showcasing campus involvement, and access networking with industry professionals."],
+        ["Is oncampus available at my school?", "Yes. We work with organizations nationwide. If your campus isn’t active yet, you can still sign up. Brands are always looking for new schools to activate."],
+        ["How much does it cost to use oncampus?", "It is completely free to join and post events as an organization. We take 20% of any successful monetary sponsorships. Product seeding, gifting, donations, and similar non-cash deals do not fall into this category."],
+        ["What kinds of events can get sponsored?", "Everything from philanthropy events and formals to study sessions, daygers, rush week, intramural teams, and club meetings. If it brings students together, there’s a brand interested in sponsoring."],
+        ["How do I get my event sponsored?", "<ol><li>Create a free oncampus account</li><li>Post your upcoming event or opportunity</li><li>Wait for brands on the platform to reach out</li><li>Run the sponsorship</li></ol>"],
+        ["Do I need to be in Greek life to use oncampus?", "Nope. oncampus works with all types of student organizations: Greek Life, athletic, cultural, professional, and independent."],
+        ["How fast can I get a sponsor?", "Many events are matched in under a week, depending on the brand, timing, and type of event. We do not guarantee sponsorships."],
+        ["Do brands only sponsor events?", "No. Many brands are interested in internal sponsorships: house pop-ups, paid social content, app downloads, and more. Once you create a profile for your organization, brands can reach out to you directly."],
+        ["Who should make an account?", "We generally recommend the social chair, president, or PR chair create an account with your organization’s official email address, not a personal one. As an organization, you can add multiple contacts to an account to get notifications."],
       ],
       video: "assets/hero-orgs.mp4",
       poster: "assets/hero-orgs.jpg",
@@ -293,9 +349,9 @@
             title: "Open offers",
             count: "3",
             cards: [
-              { name: "Sparkling water", meta: "Grove Tailgate · Ole Miss", metric: "$2,400" },
-              { name: "Fintech app", meta: "Philanthropy 5K · LSU", metric: "$1,800" },
-              { name: "Snack brand", meta: "Pop-up + UGC · Auburn", metric: "$950" },
+              { brand: "coca-cola", name: "Coca-Cola", meta: "Grove Tailgate · Ole Miss", metric: "$2,400" },
+              { brand: "red-bull", name: "Red Bull", meta: "Philanthropy 5K · LSU", metric: "$1,800" },
+              { brand: "feastables", name: "Feastables", meta: "Pop-up + UGC · Auburn", metric: "$950", brandDark: true },
             ],
             cta: "Review offers →",
           },
@@ -305,12 +361,13 @@
           body: "Contracts are auto-generated and funds lock in escrow before you commit. Event happens, proof is approved, payment releases.",
           panel: {
             title: "Semester earnings",
-            kicker: "Fall 2026",
-            rows: [
-              ["Completed deals", "4"],
-              ["In escrow", "$2,400"],
-              ["Paid out", "$5,150"],
-            ],
+            payout: {
+              label: "Paid out",
+              amount: "$5,150",
+              note: "4 deals · Fall 2026",
+              pending: { label: "Still in escrow", amount: "$2,400" },
+              progress: 68,
+            },
             cta: "View payouts →",
           },
         },
@@ -334,43 +391,43 @@
             title: "No follower minimum",
             body: "Campus relevance beats reach. Brands filter by school, niche, and past work, not by follower count.",
             chip: "No follower cutoff",
-            image: "assets/platform/students/01-followers.jpg",
-            alt: "Students studying together on a campus lawn",
+            image: "assets/platform/collage/students-followers.webp",
+            alt: "A student creator making campus content with another student.",
           },
           {
             title: "Briefs come to you",
             body: "Open campaigns from brands already spending at your school. No pitching, no cold outreach.",
             chip: "No cold DMs",
-            image: "assets/platform/students/02-briefs.jpg",
-            alt: "A student checking campaign briefs on a phone",
+            image: "assets/platform/collage/students-briefs.webp",
+            alt: "Campaign briefs and an envelope flowing toward a student’s phone.",
           },
           {
             title: "Funded before you shoot",
             body: "The fee sits in escrow before you start. Deliver the content, get paid.",
             chip: "Escrow first",
-            image: "assets/platform/students/03-shoot.jpg",
-            alt: "A content setup with a microphone and laptop ready to record",
+            image: "assets/platform/collage/students-shoot.webp",
+            alt: "A creator’s camera setup beside a funding envelope secured with a red lock.",
           },
           {
             title: "Rates up front",
             body: "Every brief shows the deliverables and the fee before you apply. No negotiating in the dark.",
             chip: "Fee on the brief",
-            image: "assets/platform/students/04-rates.jpg",
-            alt: "A student reviewing a brief on a laptop outdoors",
+            image: "assets/platform/collage/students-rates.webp",
+            alt: "An open campaign brief showing a deliverables checklist alongside a red dollar symbol.",
           },
           {
             title: "Paid in days",
             body: "Proof approved, escrow releases, usually within 24 hours.",
             chip: "Usually 24 hours",
-            image: "assets/platform/students/05-paid.jpg",
-            alt: "Hands completing a payment on a laptop with a card",
+            image: "assets/platform/collage/students-paid.webp",
+            alt: "A student smiling at a phone beside a completed event photo and red checkmark.",
           },
           {
             title: "A track record that travels",
             body: "Every completed campaign builds your profile and unlocks better-paying briefs.",
             chip: "Each deal counts",
-            image: "assets/platform/students/06-track.jpg",
-            alt: "A student on a video call getting a thumbs-up after delivering work",
+            image: "assets/platform/collage/students-track.webp",
+            alt: "A student creator with a portfolio of three checked campaign photographs.",
           },
         ],
         deck: true,
@@ -387,11 +444,11 @@
         ],
       },
       faq: [
-        ["Do I need a certain number of followers?", "No. Brands filter by campus, niche, and past work. Plenty of paid campaigns go to students with under a thousand followers."],
-        ["How much can I make?", "Content bundles average around $450, and ambassador roles pay monthly across a semester. Every brief shows the fee before you apply."],
-        ["When do I get paid?", "The fee sits in escrow before you start. Once your content is approved, escrow releases, usually within 24 hours."],
-        ["Does it cost anything to join?", "No. Joining and applying are free. Brands pay the platform fee."],
-        ["What if I’ve never done a brand deal?", "Most students here haven’t. Each brief lists exactly what to deliver, and your first completed campaign starts your track record."],
+        ["What is oncampus?", "oncampus is a free platform that connects brands with the college market. As a student, you can join as an ambassador, influencer, or athlete for different opportunities to work with brands."],
+        ["Is oncampus available at my school?", "Yes. We work with students nationwide. If your campus isn’t active yet, you can still sign up. Brands are always looking for new schools to activate."],
+        ["How much does it cost to use oncampus?", "It is completely free to join oncampus as a student."],
+        ["What types of opportunities can I expect?", "As a student ambassador, you can expect jobs like representing a brand on campus, tabling, helping execute a marketing campaign, recruitment help, and more. As a student influencer, you can expect paid UGC videos, branded social content, and similar work. You can also receive product gifting and donations from brands."],
+        ["Can I reach out to brands?", "You cannot reach out to brands directly, but you can apply to the opportunities they post."],
       ],
       video: "assets/hero-students.mp4",
       poster: "assets/hero-students.jpg",
@@ -412,11 +469,18 @@
           panel: {
             title: "Your profile",
             count: "Verified",
-            rows: [
-              ["Campus", "USC · .edu"],
-              ["Niche", "Game day · lifestyle"],
-              ["Status", "Open to campaigns"],
-            ],
+            profile: {
+              name: "Maya Chen",
+              school: "USC",
+              logo: "usc",
+              handle: "@maya.gameday",
+              chips: ["Game day", "Lifestyle", "Athlete"],
+              rows: [
+                ["Campus", "USC · .edu"],
+                ["Reach", "18.4k · TikTok"],
+                ["Status", "Open to campaigns"],
+              ],
+            },
             cta: "Publish profile →",
           },
         },
@@ -426,9 +490,9 @@
           panel: {
             title: "Open campaigns",
             cards: [
-              { name: "App launch", meta: "3 TikToks · USC", metric: "$300" },
-              { name: "Game-day stories", meta: "Story pack · Michigan", metric: "$150" },
-              { name: "Semester ambassador", meta: "Monthly retainer", metric: "$400/mo" },
+              { brand: "lyft", name: "Lyft", meta: "3 TikToks · USC", metric: "$300" },
+              { brand: "monster-energy", name: "Monster Energy", meta: "Story pack · Michigan", metric: "$150", brandDark: true },
+              { brand: "amazon", name: "Amazon", meta: "Semester ambassador", metric: "$400/mo" },
             ],
             cta: "Apply →",
           },
@@ -440,8 +504,8 @@
             title: "Matched",
             count: "2",
             cards: [
-              { name: "Ridge Energy", meta: "3 TikToks · USC", metric: "$300" },
-              { name: "Sparkling water", meta: "Story pack · Michigan", metric: "$150" },
+              { brand: "red-bull", name: "Red Bull", meta: "3 TikToks · USC", metric: "$300" },
+              { brand: "coca-cola", name: "Coca-Cola", meta: "Story pack · Michigan", metric: "$150" },
             ],
             cta: "Review offers →",
           },
@@ -451,12 +515,13 @@
           body: "Work with brands, get paid in cash or product, and build a track record that unlocks better-paying briefs.",
           panel: {
             title: "Earnings",
-            kicker: "This month",
-            rows: [
-              ["Paid out", "$750"],
-              ["Pending release", "$300"],
-              ["Completed deals", "6"],
-            ],
+            payout: {
+              label: "Paid out",
+              amount: "$750",
+              note: "6 deals this month",
+              pending: { label: "Pending release", amount: "$300" },
+              progress: 71,
+            },
             cta: "Cash out →",
           },
         },
@@ -557,6 +622,90 @@
   };
 
   const renderPanelBody = (panel) => {
+    if (panel.profile) {
+      const pr = panel.profile;
+      const logo = pr.logo
+        ? `<img class="profile-logo" src="assets/schools/${pr.logo}.svg" alt="" width="44" height="44" />`
+        : `<span class="profile-avatar" aria-hidden="true">${pr.name.charAt(0)}</span>`;
+      const chips = (pr.chips || []).map((c) => `<span>${c}</span>`).join("");
+      const rows = (pr.rows || [])
+        .map(([k, v]) => `<div class="profile-row"><span>${k}</span><strong>${v}</strong></div>`)
+        .join("");
+      return `
+        <article class="profile">
+          <div class="profile-hero">
+            ${logo}
+            <div>
+              <p class="profile-name">${pr.name}</p>
+              <p class="profile-handle">${pr.handle}</p>
+            </div>
+          </div>
+          <div class="profile-chips">${chips}</div>
+          <div class="profile-rows">${rows}</div>
+        </article>`;
+    }
+    if (panel.recap) {
+      const r = panel.recap;
+      const stats = (r.stats || [])
+        .map(([k, v]) => `<div class="recap-stat"><span>${k}</span><strong>${v}</strong></div>`)
+        .join("");
+      return `
+        <article class="recap">
+          <div class="recap-hero">
+            <p class="recap-label">${r.label}</p>
+            <p class="recap-amount">${r.hero}</p>
+            <p class="recap-note">${r.note}</p>
+          </div>
+          <div class="recap-stats">${stats}</div>
+        </article>`;
+    }
+    if (panel.contract) {
+      const c = panel.contract;
+      const parties = (c.parties || [])
+        .map((p, i) => `${i > 0 ? `<span class="contract-x" aria-hidden="true">×</span>` : ""}<span class="contract-party">${p}</span>`)
+        .join("");
+      const terms = (c.terms || [])
+        .map(([k, v]) => `<div class="contract-term"><span>${k}</span><strong>${v}</strong></div>`)
+        .join("");
+      const signs = (c.sign || [])
+        .map((label) => `<div class="contract-sign"><i></i><span>${label}</span></div>`)
+        .join("");
+      return `
+        <article class="contract">
+          <div class="contract-parties">${parties}</div>
+          <p class="contract-event">${c.event}</p>
+          <div class="contract-terms">${terms}</div>
+          <div class="contract-signs">${signs}</div>
+        </article>`;
+    }
+    if (panel.payout) {
+      const p = panel.payout;
+      const meter =
+        p.progress != null
+          ? `<div class="payout-meter" aria-hidden="true"><i style="width: ${p.progress}%"></i></div>`
+          : "";
+      const pending = p.pending
+        ? `<div class="payout-pending">
+            <div class="payout-pending-row"><span>${p.pending.label}</span><strong>${p.pending.amount}</strong></div>
+            ${meter}
+          </div>`
+        : "";
+      return `
+        <article class="payout">
+          <div class="payout-hero">
+            <p class="payout-label">${p.label}</p>
+            <p class="payout-amount">${p.amount}</p>
+            <p class="payout-note">${p.note}</p>
+          </div>
+          ${pending}
+        </article>`;
+    }
+    if (panel.thread) {
+      const bubbles = panel.thread
+        .map((m) => `<p class="thread-bubble is-${m.from}">${m.text}</p>`)
+        .join("");
+      return `<div class="thread">${bubbles}</div>`;
+    }
     if (panel.event) {
       const e = panel.event;
       const logo = e.logo
@@ -583,7 +732,12 @@
     const inner = panel.cards
       ? panel.cards
           .map((c) => {
-            const mark = c.logo
+            /* Brand wordmarks are wide, so they get a rounded rectangle well
+               instead of the circular one school crests use. Marks drawn in
+               white need the dark well to stay visible. */
+            const mark = c.brand
+              ? `<img class="brand-logo${c.brandDark ? " is-dark" : ""}" src="assets/brands/${c.brand}.svg" alt="" width="56" height="36" />`
+              : c.logo
               ? `<img class="feed-logo" src="assets/schools/${c.logo}.svg" alt="" width="38" height="38" />`
               : `<span class="panel-mark" aria-hidden="true">${c.name.charAt(0)}</span>`;
             return `
@@ -782,7 +936,7 @@
         (f, i) => `
         <article class="feature-card" data-slot="${deckSlot(i, n)}" aria-hidden="${i === 0 ? "false" : "true"}">
           <div class="feature-card-media">
-            <img src="${f.image}" alt="${f.alt}" width="1600" height="1000" draggable="false" ${i < 3 ? "" : "loading='lazy'"} />
+            <img src="${f.image}" alt="${f.alt}" width="1536" height="1024" draggable="false" ${i < 3 ? "" : "loading='lazy'"} />
           </div>
           <div class="feature-card-copy">
             <span class="feature-card-chip">${f.chip}</span>
@@ -876,9 +1030,9 @@
      Each visual is drawn from the card's own data rather than an icon set,
      so the picture says something the label doesn't. */
   const CAMP_VIZ = {
-    events: () =>
-      [["58%", ""], ["100%", " is-on"], ["42%", ""]]
-        .map(([w, on]) => `<span class="vz-bar${on}" style="--w:${w}"></span>`)
+    gifts: () =>
+      ["", " is-on", ""]
+        .map((on) => `<span class="vz-gift${on}"><span class="vz-gift-lid"></span><span class="vz-gift-box"></span></span>`)
         .join(""),
     sampling: () =>
       Array.from({ length: 54 }, (_, i) => `<span class="vz-dot${i < 37 ? " is-on" : ""}"></span>`).join(""),
@@ -888,11 +1042,11 @@
     creators: () =>
       [-7, 0, 7].map((r, i) => `<span class="vz-tile" style="--r:${r}deg;--i:${i}"></span>`).join(""),
     retail: () =>
-      `<span class="vz-ring" style="--s:1"></span><span class="vz-ring" style="--s:0.66"></span>
-       <span class="vz-ring" style="--s:0.33"></span><span class="vz-pin" style="--x:-34px;--y:-16px"></span>
-       <span class="vz-pin" style="--x:26px;--y:8px"></span><span class="vz-pin is-hub" style="--x:0;--y:0"></span>`,
-    takeover: () =>
-      [34, 55, 78, 48, 88, 40, 64].map((h, i) => `<span class="vz-col" style="--h:${h}px;--i:${i}"></span>`).join(""),
+      ["", " is-on", ""]
+        .map((on) => `<span class="vz-shop${on}"><span class="vz-shop-awning"></span><span class="vz-shop-face"></span></span>`)
+        .join(""),
+    open: () =>
+      `<span class="vz-mix-dot"></span><span class="vz-mix-plus"></span><span class="vz-mix-tile"></span>`,
   };
 
   const renderCampaigns = (d) => {
@@ -908,13 +1062,18 @@
     $("campaignsBody").textContent = d.body;
     $("campGrid").innerHTML = d.items
       .map(
-        (c) => `
+        (c) => {
+          const media = c.image
+            ? `<div class="camp-media" aria-hidden="true"><img src="${c.image}" alt="${c.alt || ""}" loading="lazy" /></div>`
+            : `<div class="camp-viz vz-${c.viz}" aria-hidden="true">${(CAMP_VIZ[c.viz] || (() => ""))()}</div>`;
+          return `
         <article class="camp reveal">
-          <div class="camp-viz vz-${c.viz}" aria-hidden="true">${(CAMP_VIZ[c.viz] || (() => ""))()}</div>
+          ${media}
           <h3>${c.title}</h3>
           <p>${c.body}</p>
           <div class="camp-spec">${c.spec.map((x) => `<span>${x}</span>`).join("")}</div>
-        </article>`
+        </article>`;
+        }
       )
       .join("");
   };
@@ -933,7 +1092,7 @@
       .map(([q, a]) => `
         <details class="faq-item reveal">
           <summary>${q}<span class="faq-x"></span></summary>
-          <p>${a}</p>
+          <div class="faq-a">${a}</div>
         </details>`)
       .join("");
     /* rebind single-open after every re-render */
@@ -995,6 +1154,8 @@
     setVideo(a.video, a.poster);
     renderPlatform(a.platform);
     renderCampaigns(a.campaigns);
+    const campuses = $("campuses");
+    if (campuses) campuses.hidden = key !== "brands";
     renderNetwork(a.network);
     renderFeed(key);
     renderFaq(a.faq);
