@@ -2534,7 +2534,7 @@ p { text-wrap: pretty; }
 }
 .campus-card.is-live h3 { color: var(--ink); }
 .campus-card > p,
-.campus-soon-lede > p {
+.campus-soon-copy > p {
   margin-top: 12px;
   font-size: var(--fs-sm);
   line-height: 1.6;
@@ -2550,14 +2550,7 @@ p { text-wrap: pretty; }
   padding-top: 38px;
 }
 .campus-soon-copy h3 { color: #c4c4c9; }
-.campus-soon-lede {
-  position: relative;
-  margin-top: 12px;
-}
-.campus-soon-lede > p {
-  margin-top: 0;
-  color: #c4c4c9;
-}
+.campus-soon-copy > p { color: #c4c4c9; }
 .campus-soon-pill {
   position: absolute;
   left: 50%;
@@ -2634,6 +2627,7 @@ p { text-wrap: pretty; }
   flex: 1;
 }
 .campus-grid.is-soon-grid li {
+  position: relative;
   display: grid;
   place-items: center;
   min-height: 72px;
